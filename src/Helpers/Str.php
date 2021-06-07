@@ -4,7 +4,7 @@ namespace Syan\PluginSystem\Helpers;
 
 /**
  * Class Str
- * @package IsaEken\PluginSystem\Helpers
+ * @package Syan\PluginSystem\Helpers
  */
 class Str
 {
