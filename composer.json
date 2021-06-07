@@ -1,0 +1,17 @@
+{
+    "name": "mzsongyan/plugin-system",
+    "version": "1.0",
+    "type": "library",
+    "description": "Plugin support and management library for your project",
+    "keywords": ["plugin", "extension", "support", "management"],
+    "homepage": "https://pinwen.org",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Syan\\PluginSystem\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
