@@ -3,7 +3,6 @@
 namespace Syan\PluginSystem;
 
 use Syan\PluginSystem\Exceptions\AttributeNotExistsException;
-use Syan\PluginSystem\Helpers\Str;
 use stdClass;
 
 /**

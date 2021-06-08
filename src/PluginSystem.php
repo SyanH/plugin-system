@@ -174,7 +174,8 @@ class PluginSystem
 
             $path = implode(DIRECTORY_SEPARATOR, [$directory, $path]);
 
-            if (is_file($path)) {
+            $pluginFileName = str_replace(['.php', '.disabled.php'], ['', ''], $path);
+            if (is_file($path) && Str::endsWith($pluginFileName, 'Plugin')) {
                 $this->autoloadPlugin($path);
             }
             else if (is_dir($path)) {
